@@ -1,30 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>Geographically Clueless</title>
-        <meta charset="utf-8" />
+  <head>
+    <title>Geographically Clueless</title>
+    <meta charset="utf-8" />
 
-        <!-- CSS -->
-        <link rel="stylesheet" href="css/normalize.css" />
-        <link rel="stylesheet" href="css/style.css" />
-    </head>
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
 
-    <body>
-        <div id="wrapper">
-            <h1>Geographically Clueless</h1>
-            <p>Clueless as to where a country is located? It happens to everyone. Enter a country into the form below; a short animation will appear to clear your doubts.</p>
+  <body>
+    <div id="wrapper">
+      <h1>Geographically Clueless</h1>
+      <p>Clueless as to where a country is located? It happens to everyone. Enter a country into the form below; a short animation will appear to clear your doubts.</p>
 
-            <!-- search form with autocomplete -->
-            <form method="get" id="search-form">
-                <input type="text" id="search" placeholder="Search for the country here..." autocomplete="off" />
-                <input type="submit" value="Display Animation" />
-            </form>
+      <!-- search form with autocomplete -->
+      <form method="get" id="search-form">
+        <input type="text" id="search" placeholder="Search for the country here..." autocomplete="off" />
+        <ul id="suggestions"></ul>
+        <input type="submit" value="Display Animation" />
+      </form>
 
-            <!-- JS -->
-            <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-            <script src="js/countries.js"></script>
-            <script src="js/map.js"></script>
-            <script src="js/script.js"></script>
-        </div>
-    </body>
+      <!-- JS -->
+      <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+      <script src="js/countries.js"></script>
+      <script src="js/map.js"></script>
+      <script src="js/script.js"></script>
+    </div>
+  </body>
 </html>
